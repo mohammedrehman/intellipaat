@@ -1,1 +1,15 @@
-This is Mohammed's first assignment
+sudo su
+mkdir Git
+cd Git
+mkdir Assignments
+cd Assignments
+git init
+touch Code.txt Log.txt Output.txt
+git add Code.txt Output.txt
+git commit -m "Added Code.txt and Output.txt files"
+git status
+git log
+git log --oneline
+git remote add origin https://github.com/mohammedrehman/intellipaat.git
+git push --set-upstream origin master
+git status
